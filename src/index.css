@@ -1,0 +1,6 @@
+@import "tailwindcss";
+body {
+  overflow-x: hidden; /* keeps wide images from causing horizontal scroll */
+  margin: 0;
+  padding: 0;
+}
