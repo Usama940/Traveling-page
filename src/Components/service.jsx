@@ -1,8 +1,9 @@
 import React from "react";
-
-import recicon1 from "../assets/rec-1.png";
+import decor from "../assets/Decore (1).png"
+import recicon1 from "../assets/rec-1.jpg";
 import recicon2 from "../assets/rec-2.jpg";
-import recicon3 from "../assets/rec-3.png";
+import recicon3 from "../assets/rec-3.jpg";
+
 
 const services = [
     {
@@ -30,12 +31,12 @@ export default function Service() {
         <div className="flex flex-col items-center m-[5rem]">
             <div>
                 <h4 className="mb-2 text-1xl text-slate-600 text-center">Top Selling</h4>
-                <h2 className="mb-20 text-2xl font-bold font-serif text-nowrap text-blue-950">
+                <h2 className="mb-20 text-2xl font-bold font-volkhov text-nowrap text-blue-950">
                     Top Destinations
                 </h2>
             </div>
 
-            <div className="flex flex-col md:flex-row justify-center items-center gap-8">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-20">
                 {services.map(({ img, title, num, description }, index) => (
                     <div key={index} className="relative w-fit">
                         <img
@@ -46,13 +47,13 @@ export default function Service() {
 
 
                         <div
-                            className="absolute bottom-0 left-0 right-0 bg-amber-50 p-2 rounded-b-lg w-full overflow-visible hidden md:block"
+                            className="absolute bottom-0 left-0 right-0 bg-amber-50 p-2 rounded-b-lg w-full overflow-visible hidden md:block shadow-xl"
                         >
                             <div className="flex justify-between text-slate-700">
-                                <h5 className="text-sm font-semibold">{title}</h5>
-                                <h5 className="text-sm font-semibold">{num}</h5>
+                                <h5 className="text-[18px] font-semibold font-poppins ">{title}</h5>
+                                <h5 className="text-sm font-semibold font-poppins">{num}</h5>
                             </div>
-                            <p className="text-gray-900">{description}</p>
+                            <p className="text-gray-900 font-poppins text-[16px]">{description}</p>
                         </div>
 
                     </div>

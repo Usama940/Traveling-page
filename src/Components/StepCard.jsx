@@ -11,12 +11,12 @@ import {
 
 export default function StepCard() {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between gap-10 px-6 py-10 md:m-20 m-6">
+    <div className="flex flex-col md:flex-row items-center justify-between gap-10  py-10 md:m-20 m-6">
 
 
       <div className="flex-1">
-        <p className="text-sm text-gray-500 font-medium">Easy and Fast</p>
-        <h2 className="text-3xl md:text-4xl font-bold mt-2 text-blue-950 leading-snug">
+        <p className="text-sm text-[rgba(94,98,130,1)] font-medium ml-0.5">Easy and Fast</p>
+        <h2 className="text-3xl md:text-4xl font-bold mt-2 text-blue-950 leading-snug font-volkhov font-volkhov">
           Book Your Next Trip <br /> In 3 Easy Steps
         </h2>
 
@@ -27,8 +27,8 @@ export default function StepCard() {
               <FaMapMarkerAlt size={20} />
             </div>
             <div>
-              <h4 className="font-semibold text-blue-900">Choose Destination</h4>
-              <p className="text-gray-500 text-sm">
+              <h4 className="font-semibold text-[rgba(94,98,130,1)]">Choose Destination</h4>
+              <p className="text-slate-700 text-sm font-poppins">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
                 tortor tempus.
               </p>
@@ -40,8 +40,8 @@ export default function StepCard() {
               <FaCreditCard size={20} />
             </div>
             <div>
-              <h4 className="font-semibold text-blue-900">Make Payment</h4>
-              <p className="text-gray-500 text-sm">
+              <h4 className="font-semibold text-[rgba(94,98,130,1)]">Make Payment</h4>
+              <p className="text-slate-700 text-sm font-poppins">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
                 tortor tempus.
               </p>
@@ -54,10 +54,10 @@ export default function StepCard() {
               <FaPlane size={20} />
             </div>
             <div>
-              <h4 className="font-semibold text-blue-900">
+              <h4 className="font-semibold text-[rgba(94,98,130,1)]">
                 Reach Airport on Selected Date
               </h4>
-              <p className="text-gray-500 text-sm">
+              <p className="text-slate-700 text-sm font-poppins">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
                 tortor tempus.
               </p>
@@ -68,15 +68,15 @@ export default function StepCard() {
 
 
       <div className="flex-1 flex justify-center items-center">
-        <div className="relative bg-white rounded-2xl shadow-lg overflow-visible w-80">
+        <div className="relative bg-white rounded-2xl shadow-lg  shadow-t-lg overflow-visible w-[97%]  md:w-[70%] p-4">
           <img
             src={girl}
             alt="Trip to Greece"
-            className="h-48 w-full object-cover rounded-t-2xl"
+            className="h-48 w-full object-cover rounded-2xl shadow "
           />
           <div className="p-4">
-            <h4 className="font-semibold text-lg">Trip To Greece</h4>
-            <p className="text-sm text-gray-500">14-29 June | by Robbin j</p>
+            <h4 className="font-normal- text-lg">Trip To Greece</h4>
+            <p className="text-xs text-gray-500">14-29 June | by Robbin j</p>
             <div className="flex gap-3 mt-3 text-gray-500 text-lg">
               <FaLeaf />
               <FaMap />

@@ -4,25 +4,24 @@ import man from "../assets/Image.png";
 
 export default function Testimonials() {
     return (
-        <div className="flex flex-col md:flex-row bg-white justify-between items-center gap-6 px-4 py-8 md:p-10 mt-16 md:mt-24 overflow-x-hidden md:m-25">
+        <div className="flex flex-col md:flex-row bg-white justify-between items-center gap-6 px-8 py-8 md:p-10 mt-16 md:mt-24 overflow-x-hidden md:m-9">
 
             <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left max-w-full">
                 <h4 className="text-xl text-blue-900">Testimonials</h4>
-                <h2 className="text-3xl md:text-4xl text-blue-950 font-bold leading-snug">
+                <h2 className="text-3xl md:text-4xl text-blue-950 font-bold leading-snug font-volkhov">
                     What people say about Us.
                 </h2>
                 <img src={dotimg} alt="dotimg" className="mt-4" />
             </div>
 
-
-            <div className="w-full md:w-[40%] bg-white max-w-full">
+            <div className="w-full md:w-[70%] max-w-full">
                 <div className="shadow-lg rounded-xl p-4 w-full">
                     <img
                         src={man}
                         alt=""
-                        className="mb-4 w-28 h-auto md:w-16 lg:w-20 object-cover rounded-lg"
+                        className="mb-4 w-20 h-auto md:w-16 lg:w-20 object-cover rounded-lg"
                     />
-                    <p className="italic mb-4 text-start text-gray-700 leading-relaxed">
+                    <p className="italic mb-4 text-start text-gray-700 leading-relaxed break-normal w-full md:pr-22 font-normal">
                         “On the Windows talking painted pasture yet its express parties use.
                         Sure last upon he same as knew next. Of believed or diverted no.”
                     </p>
@@ -30,7 +29,7 @@ export default function Testimonials() {
                     <p className="text-sm text-gray-600 text-start">Lahore, Pakistan</p>
                 </div>
 
-                <div className="border-b border-r rounded-b-2xl border-red-800 p-4 w-full">
+                <div className="border-b border-r rounded-b-2xl border-slate-200 p-4 w-full">
                     <p className="font-semibold text-lg text-blue-950">Chris Thomas</p>
                     <p className="text-sm text-gray-500">CEO of Red Button</p>
                 </div>

@@ -35,9 +35,9 @@ const categories = [
 export default function Catagory() {
     return (
         <div>
-            <div className="flex flex-col items-center m-[5rem] px-4 text-center md:text-left">
+            <div className="flex flex-col items-center m-[5rem]  text-center md:text-left">
                 <h2 className="mb-2 text-xl text-slate-600">CATEGORY</h2>
-                <h2 className="mb-8 md:mb-20 text-lg md:text-2xl font-bold font-serif text-blue-950 text-center md:text-left  overflow-x-auto">
+                <h2 className="mb-8 md:mb-10 text-lg md:text-2xl font-bold font-serif text-blue-950 text-center md:text-left  overflow-x-auto">
                     We Offer Best Services
                 </h2>
 
@@ -46,13 +46,13 @@ export default function Catagory() {
                         <div
                             key={title}
                             className={`text-center md:w-1/6 ${specialStyle
-                                ? "rounded-3xl shadow-[0px_2px_4px_rgba(0,0,0,0.02)_0px_8px_6px_rgba(0,0,0,0.01)_0px_20px_13px_rgba(0,0,0,0.01)] w-25 h-auto"
+                                ? "rounded-3xl shadow-[0px_2px_4px_rgba(0,0,0,0.02)_0px_8px_6px_rgba(0,0,0,0.01)_0px_20px_13px_rgba(0,0,0,0.01)] w-25 h-10"
                                 : ""
                                 }`}
                         >
                             <img src={icon} alt={title} className="mx-auto" />
                             <h2 className="mt-4 text-blue-950 font-semibold">{title}</h2>
-                            <p className="mt-2 text-sm text-gray-500">{description}</p>
+                            <p className="mt-2 text-sm text-slate-700 font-poppins">{description}</p>
                         </div>
                     ))}
                 </div>
