@@ -10,25 +10,22 @@ const categories = [
         icon: catagoryicon1,
         title: "Calculated Weather",
         description: "Built Wicket longer admire do barton vanity itself do in it.",
-        specialStyle: false,
+
     },
     {
         icon: catagoryicon2,
         title: "Best Flights",
         description: "Engrossed listening. Park gate sell they west hard for the.",
-        specialStyle: false,
     },
     {
         icon: catagoryicon3,
         title: "Local Events",
         description: "Barton vanity itself do in it. Preferred to men it engrossed listening.",
-        specialStyle: false,
     },
     {
         icon: catagoryicon4,
         title: "Customization",
         description: "We deliver outsourced aviation services for military customers.",
-        specialStyle: false,
     },
 ];
 
@@ -42,7 +39,7 @@ export default function Catagory() {
                 </h2>
 
                 <div className="flex items-center justify-between mt-4 flex-col md:flex-row">
-                    {categories.map(({ icon, title, description, specialStyle }, index) => (
+                    {categories.map(({ icon, title, description, 1: specialStyle }, index) => (
                         <div
                             key={title}
                             className={`text-center md:w-1/6 ${specialStyle

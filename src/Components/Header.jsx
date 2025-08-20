@@ -124,7 +124,7 @@ export default function Header() {
                 </div>
 
 
-                <div className="w-full md:w-1/2 flex justify-center items-center relative overflow-visible px-4">
+                <div className="w-full md:w-1/2 flex justify-center items-center relative overflow-visible px-4 md:pr-15">
                     <img
                         className="absolute top-3 left-25 z-20 hidden md:block"
                         src={plane}
@@ -134,6 +134,11 @@ export default function Header() {
                         src={Girl}
                         alt="Girl"
                         className="relative z-10 max-w-full h-auto"
+                    />
+                    <img
+                        className="absolute top-35 left-90 z-20 hidden md:block"
+                        src={plane}
+                        alt="plane"
                     />
                     <img
                         className="absolute -top-[5rem] -right-[2rem] -z-10 w-[70em] h-auto hidden md:block"

@@ -19,7 +19,7 @@ export default function SubscribeSection() {
                 </div>
 
 
-                <h2 className="text-center text-xl md:text-2xl font-semibold text-gray-700 mb-6">
+                <h2 className="text-center text-xl md:text-2xl font-semibold text-gray-700 mb-6 font-poppins">
                     Subscribe to get information, latest news and other <br className="hidden md:block" />
                     interesting offers about Jadoo
                 </h2>
@@ -28,10 +28,7 @@ export default function SubscribeSection() {
                 <form className="flex flex-col md:flex-row items-center justify-center gap-4 w-full max-w-lg mx-auto">
 
                     <div className="relative w-full md:flex-1">
-                        {/* Icon */}
                         <MdOutlineMail className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-lg" />
-
-                        {/* Input */}
                         <input
                             type="email"
                             placeholder="Your email"
@@ -41,7 +38,7 @@ export default function SubscribeSection() {
 
                     <button
                         type="submit"
-                        className="w-full md:w-auto bg-orange-500 text-white px-6 py-3 rounded-lg hover:bg-orange-600 transition"
+                        className="w-full md:w-auto bg-[rgba(255,148,109,1)] text-white px-6 py-3 rounded-lg hover:bg-orange-600 transition"
                     >
                         Subscribe
                     </button>
@@ -55,7 +52,7 @@ export default function SubscribeSection() {
 
                     <div className="flex flex-col items-center md:items-start w1/5">
                         <h2 className="text-2xl font-bold text-blue-900">Jadoo.</h2>
-                        <p className="text-gray-500 mt-2 text-sm">
+                        <p className="text-slate-700 mt-2 text-sm">
                             Book your trip in minute, get full control for much longer.
                         </p>
                     </div>
@@ -63,7 +60,7 @@ export default function SubscribeSection() {
 
                     <div className="flex flex-col items-center md:items-start w-1/5">
                         <h3 className="font-bold mb-3">Company</h3>
-                        <ul className="space-y-2 text-gray-500 text-sm">
+                        <ul className="space-y-2 text-slate-700 text-[18px] font-poppins font-normal">
                             <li>About</li>
                             <li>Careers</li>
                             <li>Mobile</li>
@@ -73,7 +70,7 @@ export default function SubscribeSection() {
 
                     <div className="flex flex-col items-center md:items-start w-1/5">
                         <h3 className="font-bold mb-3">Contact</h3>
-                        <ul className="space-y-2 text-gray-500 text-sm">
+                        <ul className="space-y-2 text-slate-700 text-[18px] font-poppins font-normal">
                             <li>Help/FAQ</li>
                             <li>Press</li>
                             <li>Affiliates</li>
@@ -83,7 +80,7 @@ export default function SubscribeSection() {
 
                     <div className="flex flex-col items-center md:items-start w-1/5">
                         <h3 className="font-bold mb-3">More</h3>
-                        <ul className="space-y-2 text-gray-500 text-sm">
+                        <ul className="space-y-2 text-slate-700 text-[18px] font-poppins font-normal">
                             <li>Airlinefees</li>
                             <li>Airline</li>
                             <li>Low fare tips</li>
@@ -103,7 +100,7 @@ export default function SubscribeSection() {
                             </a>
                         </div>
                         <p className="text-gray-500 text-sm mb-3">Discover our app</p>
-                        <div className="flex gap-4 justify-start w-full">
+                        <div className="flex gap-4 justify-center md:justify-start w-full">
                             <a
                                 href="#"
                                 className="flex items-center gap-2 bg-black text-white px-2 py-1 rounded-4xl hover:bg-gray-900 transition h-9"
@@ -126,9 +123,10 @@ export default function SubscribeSection() {
                                 </div>
                             </a>
                         </div>
+
                     </div>
                 </div>
-                <div className="text-center text-gray-500 text-sm mt-8">
+                <div className="text-center text-slate-700  mt-8 font-normal text-[18px]">
                     All rights reserved@jadoo.co
                 </div>
             </footer>
